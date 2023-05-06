@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #8b5484;
+    height: 75px;
+   
+}
+nav ul {
+    display: flex;
+    float: left;
+}
+nav ul li {
+   list-style: none;
+   margin-left: 77px;
+   margin-top: 20px;
+    
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase; 
+    margin-left: 10px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 10px;
+    font-weight: bold;
+}
+a:hover{
+     color: white;
+}
+
+.clear{
+    clear: both; /*  float: right;بنعطيه ل ديف فاضي بعد ما نستخدم */
+}
+.uni{
+    width: 100px;
+    height: 60px;
+    margin-left: 1200px;
+    margin-top: -30px;
+}
+
+.head1{
+    margin-top: 30px;
+    margin-left: 60px;
+    font-family: "changa";
+    font-weight: bold;
+}
+table{
+    margin-left: 60px;
+   margin-top: 35px;
+    height: 350px;
+    width: 500px;
+}
+.div1{
+    float: left;
+    display: flex;
+}
+.imgp{
+    margin-top: 30px;
+    margin-left: 300px;
+    width:350px;
+    height: 350px;
+    border: solid 1px #606060;
+}
+.ctable{
+    margin-left: 70px;
+    width: 1100px;
+    height: 80px;
+    border-collapse: collapse;
+    border-radius: 50%;
+   
+}
+
+.tr1{
+    border: solid 1px black;
+    background-color: #606060;
+  
+}
+.th1{
+    width:250px
+}
+.pic{
+    margin-left:250px;
+    margin-top: 30px;
+    height: 400px;
+    width:320px;
+}
+.s{
+    width:150px;
+    padding: 5px;
+    color: white;
+    background-color: #198754;
+    border-color: #198754;
+     
+}
+.r{
+    width:150px;
+    padding: 5px;
+    color: white;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    margin-left:100px;
+}
+.cerfpic{
+    width: 800px;
+    height: 500px;
+    margin-left: 250px;
+    
+}
+
+
